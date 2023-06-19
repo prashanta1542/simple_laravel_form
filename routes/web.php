@@ -18,3 +18,4 @@ Route::get('/', function () {
 });
 Route::get('/registration', [FormController::class, 'showForm']);
 Route::post('/getformdata', [FormController::class, 'getData']);
+Route::post('/newpath', [FormController::class, 'getData']);
